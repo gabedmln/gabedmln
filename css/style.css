@@ -15,6 +15,10 @@ p {
   font-weight:400;
 }
 
+.twitter-mention-button {
+  padding: 64px 0;
+}
+
 .hero {
   width:100%;
   display:flex;
@@ -27,4 +31,18 @@ p {
 .profile {
   width:154px;
   height:154px;
+  padding-top: 64px;
+}
+
+.twitter {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-bar {
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+  padding:24px;
+  align-items: center;
 }
