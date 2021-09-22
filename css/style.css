@@ -15,10 +15,6 @@ p {
   font-weight:400;
 }
 
-.twitter-mention-button {
-  padding: 64px 0;
-}
-
 .hero {
   width:100%;
   display:flex;
@@ -28,6 +24,7 @@ p {
   padding:64px 0;
   background-color: #fafafa;
 }
+
 .profile {
   width:154px;
   height:154px;
