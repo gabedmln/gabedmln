@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 html, body {
+  background-color: #ffffff;
   margin:0;
 font-family: 'Raleway', sans-serif;
 }
@@ -52,7 +53,6 @@ p {
 }
 
 #section-header {
-  background-color: #fafafa;
   width:100%;
 }
 
@@ -62,22 +62,15 @@ p {
 
 #nft {
   width: 100%;
-  background-color: #DDDCDC;
-  margin: 10;
-}
-
-.section-two {
-  width:100%;
   display:flex;
-  justify-content: center;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
+  padding: 8px;
 }
 
-.gold {
-  width: 186px;
-  height: 181px;
-  padding: 16px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.opensea {
+  width: 25%;
+  padding: 8px;
+  border: 8px solid #f4f5f6;
 }
