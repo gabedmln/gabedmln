@@ -127,7 +127,7 @@ a {
   justify-content: left;
 }
 
-.totoro:hover{
+.totoro:hover {
   opacity: 100%;
   transform: scale(1.2);
 }
@@ -149,4 +149,14 @@ a {
   width:100%;
   padding-top: 48px;
   font-weight: 700;
+}
+
+.mail {
+  opacity: 60%;
+  transition: 0.5s all ease;
+}
+
+.mail:hover {
+  opacity: 100%;
+  transform: scale(1.0);
 }
