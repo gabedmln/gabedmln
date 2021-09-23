@@ -74,6 +74,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   padding:48px 0;
+  background-color: #fafafa;
 }
 
 .opensea {
