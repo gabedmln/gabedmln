@@ -54,13 +54,34 @@ p {
 
 #section-header {
   width:100%;
+  background-color: #fafafa;
 }
 
 #resume {
   width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:48px;
+  background-color: #fafafa;
 }
 
 #nft {
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  padding:48px 0;
+}
+
+.opensea {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+  width: calc(25% - 64px);
+}
+
+.artwork {
   width: 100%;
   display:flex;
   flex-direction: row;
@@ -70,7 +91,33 @@ p {
   justify-content: space-between;
 }
 
-.opensea {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
-  width: calc(25% - 64px);
+.section-headline {
+  margin-bottom: 48px;
+}
+
+.experience {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.item {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  margin-bottom: 48px;
+}
+
+.item-label {
+
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
