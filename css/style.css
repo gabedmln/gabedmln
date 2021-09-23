@@ -54,7 +54,7 @@ p {
 
 #section-header {
   width:100%;
-  background-color: #fafafa;
+  background-image: linear-gradient(#dbeeff,#fafafa);
 }
 
 #resume {
@@ -64,7 +64,7 @@ p {
   align-items: center;
   flex-wrap: wrap;
   padding:48px;
-  background-color: #fafafa;
+  background-image: linear-gradient(#fafafa,#dbeeff);
 }
 
 #nft {
