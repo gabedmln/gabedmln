@@ -107,7 +107,7 @@ p {
 .item {
   display:flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   width:100%;
   margin-bottom: 48px;
@@ -174,4 +174,8 @@ a {
   .bio {
     max-width: 650px;
     text-align: center;
+  }
+
+  .item-label {
+    text-align: left;
   }
